@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from src.config import Config
+from config import Config
 
 def check_api_key():
     api_key_recibida = request.headers.get("API-KEY")

@@ -1,6 +1,6 @@
 from flask import Flask
-from src.routes.audio_route import audio_bp
-from src.middlewares.auth import check_api_key
+from routes.audio_route import audio_bp
+from middlewares.auth import check_api_key
 
 app = Flask(__name__)
 

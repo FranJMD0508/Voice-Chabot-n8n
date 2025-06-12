@@ -1,5 +1,5 @@
 from flask import Blueprint, request, send_file, jsonify
-from src.services.conversion_tts import conversion_texto_a_audio
+from services.conversion_tts import conversion_texto_a_audio
 
 audio_bp = Blueprint('audio_routes', __name__)
 
