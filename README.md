@@ -41,4 +41,4 @@ Pasos para correr la API en tu máquina:
 > No olvides crear un archivo **.env** y crear la variable **"N8N_API_KEY"**, la cual contiene la clave de tu API.
 
 >[!NOTE]
-> Al hacer un llamado a la API, coloca en los headers la key "API-KEY" con el valor de la clave mencionada anteriormente.
+> Al hacer un llamado a la API, coloca en los headers la key **"API-KEY"** con el valor de la clave mencionada anteriormente.
