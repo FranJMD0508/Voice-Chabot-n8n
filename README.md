@@ -3,8 +3,8 @@ Chatbot automatizado en **Telegram** que **captura y entrega audio**.
 Transcribe y envía audios mediante una **API** en **Python con Flask**.
 
 <div align=center>
-  <img src="https://brandslogos.com/wp-content/uploads/images/large/python-logo.png" alt="Python" width=200 />
-  <img src="https://cdn.raiolanetworks.com/blog/wp-content/uploads/n8n.png?width=599&height=599" alt="Python" width=200 />
+  <img src="https://brandslogos.com/wp-content/uploads/images/large/python-logo.png" alt="Python" width=170 />
+  <img src="https://cdn.raiolanetworks.com/blog/wp-content/uploads/n8n.png?width=599&height=599" alt="Python" width=170 />
 </div>
 
 ---
