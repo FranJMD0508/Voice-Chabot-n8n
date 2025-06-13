@@ -3,7 +3,7 @@ import speech_recognition as sr
 from middlewares.audio_processing import procesar_archivo_audio
 from services.conversion_stt import conversion_audio_a_texto
 
-to_text_bp = Blueprint('audio_routes', __name__)
+to_text_bp = Blueprint('text_routes', __name__)
 
 @to_text_bp.route('/audio-to-text', methods=['POST'])
 def audio_a_texto():
