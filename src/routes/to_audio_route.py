@@ -1,9 +1,9 @@
 from flask import Blueprint, request, send_file, jsonify
 from services.conversion_tts import conversion_texto_a_audio
 
-audio_bp = Blueprint('audio_routes', __name__)
+to_audio_bp = Blueprint('audio_routes', __name__)
 
-@audio_bp.route('/text-to-audio', methods=['POST'])
+@to_audio_bp.route('/text-to-audio', methods=['POST'])
 def texto_a_audio():
     data = request.get_json()
     if not data or 'text' not in data:
